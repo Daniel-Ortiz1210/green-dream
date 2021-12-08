@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'DM Sans', sans-serif;
+}
+
+header {
+    margin: 15px;
+    width: 100%;
+}
+
+header .header__logo {
+    margin: 0 auto;
+    background-color: #A5BE00;
+    border: solid black 2px;
+    padding: 10px;
+    width: fit-content;
+}
+
+header .header__logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+header .header__nav-bar {
+    background-color: #A5BE00;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+}
+
+header .header__nav-bar li {
+    margin: 15px;
+    display: inline;
+}
+
+header .header__nav-bar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.header__titulo {
+    font-size: 40px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header > * {
+    margin: 0px 12px 0px 12px;
+    padding: 10px;
+}
+
+.video-yt {
+    text-align: center;
+    margin: 0px 12px 0px;
+}
+
+#manufacturing > * {
+    margin: 0px 12px 0px 12px;
+    padding: 10px;
+}
+
+#manufacturing .manufacturing__header {
+    font-size: 25px;
+}
+
+#construction > * {
+    margin: 0px 12px 0px 12px;
+    padding: 10px;
+}
+
+#construction .construction__header {
+    font-size: 25px;
+}
+
+#construction .construction__img {
+    text-align: center;
+}
+
+#energy > * {
+    margin: 0px 12px 0px 12px;
+    padding: 10px;
+}
+
+#energy .energy__header {
+    font-size: 25px;
+}
+
+#agriculture > * {
+    margin: 0px 12px 0px 12px;
+    padding: 10px;
+}
+
+#agriculture .agriculture__header {
+    font-size: 25px;
+}
+
+#transportation > * {
+    margin: 0px 12px 0px 12px;
+    padding: 10px;
+}
+
+#transportation .transportation__header {
+    font-size: 25px;
+}
+
+#footer {
+    margin: 0px 12px 0px 12px;
+    padding: 10px;
+}
+
+.footer__nav-var {
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+.footer__nav-var ul {
+    list-style-type: none;
+}
+
+.footer__nav-var ul li {
+    display: inline;
+    padding: 15px;
+    text-align: center;
+}
+
+.footer__nav-var ul li a {
+    color: white;
+    text-decoration: none;
+}

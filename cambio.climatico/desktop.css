@@ -1,0 +1,73 @@
+.header__nav-bar{
+    display: inline-flex;
+    text-align: center;
+    background-color: #A5BE00;
+
+}
+
+.logo__letra{
+    display: none;
+}
+
+.logo__menu{
+    display: none;
+}
+
+header{
+    display:inline-block;
+    width: 100%;
+}
+header .logo__letra{
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+header .header__nav-bar {
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+
+}
+
+header .header__nav-bar ul{
+    background-color: #A5BE00;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+header .header__nav-bar li {
+    margin: 15px;
+    display: inline;
+    justify-content: space-evenly;
+}
+
+header .header__nav-bar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.header__titulo {
+    font-size: 40px;
+}
+header .header__logo {
+    margin: 0 auto;
+    background-color: #A5BE00;
+    border: solid black 2px;
+    padding: 10px;
+    width: fit-content;
+}
+
+#footer{
+    display: grid;
+    grid-template-areas: 
+    "logo lista";}
+
+.footer__logo a{
+    font-size: 50px;
+}
