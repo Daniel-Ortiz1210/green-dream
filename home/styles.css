@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* Agregar grid y flexbox a solo dos paginas del proyecto
+De preferencia que sea a index y a cambio-climatico */
+
+
+/* Aqui empieza la seccion header  */
+
+.contenedor-principal{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "footer footer";
+
+}
+
+.header__contenedor-principal{
+    grid-area: header;;
+}
+
+.main__contenedor-principal{
+    grid-area: main;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.main__contenedor-principal--contenido1-texto{
+    padding-top: 30px;
+}
+
+.main__contenedor-principal--contenido1-texto a{
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+}
+
+.footer__contenedor-principal{
+    grid-area:footer ;
+
+}
+
+html {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.header__contenedor-principal{
+    display: inline-flex;
+    text-align: center;
+    background-color: #A5BE00;
+
+}
+
+
+header{
+    display:inline-block;
+    width: 100%;
+}
+
+header .logo__letra{
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.header__contenedor-principal{
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.header__contenedor-principal ul{
+    background-color: #A5BE00;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.header__contenedor-principal li {
+    margin: 15px;
+    display: inline;
+    justify-content: space-evenly;
+}
+
+.header__contenedor-principal a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.main__contenedor-principal--contenido1{
+    display: grid;
+    grid-template-areas: 
+    "texto img";
+    width: 100%;
+}
+
+.intro__description{
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.intro__button{
+    width: 70%;
+    height: 45px;
+}
+
+.intro__button a{
+    font-size: 30px;
+
+}
+
+.main__h2{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.main__contenedor-principal--contenido1-texto{
+    grid-area: texto;
+    margin: auto 0;
+}
+
+.main__contenedor-principal--contenido1-img{
+    grid-area:img;
+    width: 100%;
+}
+
+.main__contenedor-principal--contenido1-img img{
+    width: 100%;
+}
+
+.main__contenedor-principal--climate-change--img{
+    width: 100%;
+}
+
+.main__contenedor-principal--climate-change--img img{
+    width: 100%;
+}
+
+.main__contenedor-principal--learn-more--img{
+    width: 100%;
+}
+
+.main__contenedor-principal--learn-more--img img{
+    width: 100%;
+}
+
+.main__contenedor-principal--get-involved--img{
+    width: 100%;
+}
+
+.main__contenedor-principal--get-involved--img img{
+    width: 100%;
+}
+
+.main__contenedor-principal--climate-change{
+    display: grid;
+    grid-template-areas: 
+    "img texto";
+}
+
+.main__contenedor-principal--climate-change--texto{
+    grid-area: texto;
+    padding-left: 30px;
+}
+
+.main__contenedor-principal--climate-change--img{
+    grid-area: img;
+}
+
+.main__contenedor-principal--climate-change--texto h2{
+    margin-bottom: 20px;}
+
+.main__contenedor-principal--climate-change--texto button{
+        width: 35%;
+        display: block;
+        height: 35px;
+        margin-top: 40px;
+    }
+
+.main__contenedor-principal--learn-more{
+    display: grid;
+    grid-template-areas: "texto img";
+    margin-top: 50px;
+}
+
+.main__contenedor-principal--learn-more--texto{
+    grid-area: texto;
+}
+
+.main__contenedor-principal--learn-more--img{
+    grid-area: img;
+}
+
+.main__contenedor-principal--learn-more--texto h2{
+    margin-bottom: 20px;}
+
+.main__contenedor-principal--learn-more--texto button{
+        width: 35%;
+        display: block;
+        height: 35px;
+        margin-top: 40px;
+}
+
+.main__contenedor-principal--get-involved{
+    display: grid;
+    grid-template-areas: 
+    "img texto";
+    margin: 50px;
+}
+
+.main__contenedor-principal--get-involved--texto{
+    grid-area: texto;
+    padding-left: 30px;
+}
+
+.main__contenedor-principal--get-involved--img{
+    grid-area: img;
+}
+
+.main__contenedor-principal--get-involved--texto h2{
+    margin-bottom: 20px;}
+
+.main__contenedor-principal--get-involved--texto button{
+        width: 35%;
+        display: block;
+        height: 35px;
+        margin-top: 40px;
+    }
+
+.footer__contenedor-principal{
+    display: grid;
+    grid-template-areas: "logo lista";
+    width: 90%;
+    border: 1px solid black;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.footer__logo{
+    grid-area: logo;
+    margin: auto 0;
+}
+
+.footer__nav-var{
+    grid-area: lista;
+    display: grid;
+    grid-template-areas: "lista-1 lista-2";
+    margin: auto 0;
+}
+
+.lista-1{
+    text-align: center;
+    grid-area: lista-1;
+}
+
+.lista-2{
+    grid-area: lista-2;
+}
+
+.footer__logo{
+        display: flex;
+        width: 50%;
+        float: left;
+        margin-top: 2px;
+    }
+    
+.footer__logo a{
+        font-size: 50px;
+        margin: 0 auto;
+        margin-top: 15px;
+        color: black;
+        text-decoration: none;
+    }
+
+.footer__nav-var ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer__nav-var ul{
+    list-style: none;
+}
